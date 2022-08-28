@@ -28,8 +28,6 @@ class Timer {
       const deltaTime = currentTime - startTime;
       const time = this.getTimeComponents(deltaTime);
       this.onTick(time);
-      //       updateClockface(time);
-      //       console.log(`${hours}:${mins}:${secs}`);
     }, 1000);
   }
   stop() {
